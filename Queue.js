@@ -56,12 +56,3 @@ class Queue {
         return allToString;
     }
 }
-
-let kamur = new Queue()
-
-kamur.enqueue("sezer")
-kamur.enqueue("sezen")
-kamur.enqueue("cüneyt")
-kamur.enqueue("selcan")
-
-console.log(kamur.allQueue())
